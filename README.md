@@ -1,3 +1,12 @@
+# Thanks to Code With Antonio 
+[https://www.youtube.com/@codewithantonio](Code With Antonio)
+
+## Reference from video i did
+### command in terminal
+* npx create-next-app --typescript --info
+* did not include route or app or src folders all are No
+* 
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
