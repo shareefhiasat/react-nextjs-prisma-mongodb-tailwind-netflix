@@ -5,7 +5,11 @@
 ### command in terminal
 * npx create-next-app --typescript --info
 * did not include route or app or src folders all are No
-* 
+* setup tailwind -D dependency on development level: and initialize config file
+    ```
+    npm install -D tailwindcss postcss autoprefixer
+    npx tailwindcss init -p
+    ```
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
