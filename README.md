@@ -1,15 +1,25 @@
-# Thanks to Code With Antonio 
+# Thanks to Code With Antonio
+
 [https://www.youtube.com/@codewithantonio](Code With Antonio)
 
 ## Reference from video i did
+
 ### command in terminal
-* npx create-next-app --typescript --info
-* did not include route or app or src folders all are No
-* setup tailwind -D dependency on development level: and initialize config file
-    ```
-    npm install -D tailwindcss postcss autoprefixer
-    npx tailwindcss init -p
-    ```
+
+- npx create-next-app --typescript --info
+- did not include route or app or src folders all are No
+- setup tailwind -D dependency on development level: and initialize config file
+  ```
+  npm install -D tailwindcss postcss autoprefixer
+  npx tailwindcss init -p
+  ```
+- install prisma
+
+````
+npm install -D prisma
+npx prixma init
+npm install @prisma/client
+``
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
@@ -23,7 +33,7 @@ npm run dev
 yarn dev
 # or
 pnpm dev
-```
+````
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
