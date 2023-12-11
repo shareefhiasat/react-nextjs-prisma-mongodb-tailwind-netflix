@@ -34,6 +34,15 @@ npm install next-auth
 npm install bcrypt
 ```
 
+```
+ to fix gitignore on .env
+ git rm --cached .env
+
+ npm i axios
+ npm install react-icons
+ npm i @next-auth/prisma-adapter
+```
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
