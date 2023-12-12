@@ -41,6 +41,7 @@ npm install bcrypt
  npm i axios
  npm install react-icons
  npm i @next-auth/prisma-adapter
+ npm i swr
 ```
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
