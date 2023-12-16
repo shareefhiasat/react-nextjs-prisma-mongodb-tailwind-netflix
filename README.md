@@ -39,9 +39,15 @@ npm install bcrypt
  git rm --cached .env
 
  npm i axios
+
  npm install react-icons
+
  npm i @next-auth/prisma-adapter
+
  npm i swr
+
+ npm i lodash
+ npm i -D @types/lodash
 ```
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).

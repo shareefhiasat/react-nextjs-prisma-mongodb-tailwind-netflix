@@ -5,8 +5,8 @@ import { CiCircleInfo } from "react-icons/ci";
 const Billboard = () => {
   const { data } = useBillboard();
 
-  console.log(data?.thumbnailUrl);
-  console.log(data?.videoUrl);
+//   console.log(data?.thumbnailUrl);
+//   console.log(data?.videoUrl);
 
   return (
     <div className="relative h-[56.25vw]">
@@ -26,7 +26,7 @@ const Billboard = () => {
           {data?.description}
         </p>
         <div className="flex flex-row items-center mt-3 md:mt-4 gap-3">
-          <button className="bg-white text-white bg-opacity-30 rounded-md py-1 md:py-2 px-2 md:px-4 flex flex-row items-center hover:bg-opacity-20 transition font-semibold w-auto">
+          <button className="bg-white text-white bg-opacity-30 rounded-md py-1 md:py-2 px-2 md:px-4 flex flex-row items-center hover:bg-opacity-20 transition font-semibold w-auto sm:text-sm md:text-base text-xs">
             <CiCircleInfo className="mr-1" />
             More Info
           </button>
