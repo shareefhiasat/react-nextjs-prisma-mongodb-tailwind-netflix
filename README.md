@@ -48,6 +48,8 @@ npm install bcrypt
 
  npm i lodash
  npm i -D @types/lodash
+
+ npm install zustand
 ```
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
