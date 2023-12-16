@@ -5,8 +5,8 @@ import { CiCircleInfo } from "react-icons/ci";
 const Billboard = () => {
   const { data } = useBillboard();
 
-//   console.log(data?.thumbnailUrl);
-//   console.log(data?.videoUrl);
+  //   console.log(data?.thumbnailUrl);
+  //   console.log(data?.videoUrl);
 
   return (
     <div className="relative h-[56.25vw]">
