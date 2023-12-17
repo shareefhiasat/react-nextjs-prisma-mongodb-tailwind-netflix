@@ -1,6 +1,5 @@
-# Thanks to Code With Antonio
-
-[https://www.youtube.com/@codewithantonio](Code With Antonio)
+## Thanks to Code With Antonio
+[@codewithantonio](https://www.youtube.com/@codewithantonio)
 
 ## Reference from video i did
 
