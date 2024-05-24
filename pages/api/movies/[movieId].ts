@@ -28,13 +28,12 @@ export default async function handler(
     });
 
     if (!movie) {
-      throw new Error("Movie not found");
+      throw new Error("Invalid ID");
     }
 
     return res.status(200).json(movie);
   } catch (error) {
-    Sentry.captureException(error);
-    console.error(error);
-    return res.status(400).json({ error: error.message });
+    console.log(error);
+    return res.status(400).end();
   }
 }
