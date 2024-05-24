@@ -1,4 +1,5 @@
 import { NextApiRequest, NextApiResponse } from "next";
+import * as Sentry from "@sentry/nextjs";
 
 import prismadb from "@/lib/prismadb";
 import serverAuth from "@/lib/serverAuth";
@@ -27,12 +28,13 @@ export default async function handler(
     });
 
     if (!movie) {
-      throw new Error("Invalid ID");
+      throw new Error("Movie not found");
     }
 
     return res.status(200).json(movie);
   } catch (error) {
-    console.log(error);
-    return res.status(400).end();
+    Sentry.captureException(error);
+    console.error(error);
+    return res.status(400).json({ error: error.message });
   }
 }
